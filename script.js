@@ -35,7 +35,29 @@ $(document).ready(function(){
     }
 
     function startTimer(duration, display) {
+        var timer = duration
+        var minutes;
+        var seconds;
+        setInterval(function () {
+            minutes = parseInt(timer / 60);
+            seconds = parseInt(timer % 60);
+    
+            minutes = minutes < 10 ? "0" + minutes : minutes;
+            seconds = seconds < 10 ? "0" + seconds : seconds;
+    
+            display.text(minutes + ":" + seconds);
+    
+            if (--timer < 0) {
+                alert("Time's up!");
+            }
+        }, 1000);
     }
+    
+    jQuery(function ($) {
+        var oneMinute = 60;
+            display = $('#time');
+        startTimer(oneMinute, display);
+    });
 
     
     newProblem();
