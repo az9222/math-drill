@@ -4,7 +4,7 @@
 
 .title {
     font-family: 'Jua', sans-serif;
-    font-size: 50px;
+    font-size: 70px;
     color: red;
 }
 
@@ -12,7 +12,9 @@
     display: flex;
     font-family: 'Jua', sans-serif;
     background-color: #F2DC97;
-    height: 70px;
+    height: 90px;
+    width: 1200px;
+    align-items: space-around;
 }
 
 .contact {
@@ -32,4 +34,89 @@
 .footer {
     display: flex;
     align-items: flex-end;
+    width: 1200px;
+}
+
+.questionContainer {
+    height: 300px;
+    width: 1200px;
+    background-color: #C1E9EF;
+    font-size: 70px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: 'Jua', sans-serif;
+    color: red;
+    border: 10px dotted #8CDAF2;
+}
+
+#input {
+    height: 80px;
+    width: 200px;
+    font-family: 'Jua', sans-serif;
+    border-radius: 5px;
+    color: red;
+    cursor: pointer;
+    font-size: 50px;
+}
+
+.scorekeeper {
+    height: 150px;
+    background-color: #CAF38D;
+    font-family: 'Jua', sans-serif;
+    color: blue;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.timer-container {
+    height: 150px;
+    background-color: #CAF38D;
+    font-family: 'Jua', sans-serif;
+    color: blue;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#picture-one {
+    height: 120px;
+    padding-top: 20px;
+}
+
+#clock {
+    height: 120px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+.contact {
+    padding-top: 20px;
+    padding-left: 450px;
+}
+
+.correctText {
+    padding-top: 50px;
+}
+
+#correctSpan {
+    padding-top: 50px;
+}
+
+.wrongText {
+    padding-top: 50px;
+}
+
+#wrongSpan {
+    padding-top: 50px;
+}
+
+.timerText {
+    padding-top: 50px;
+    margin-left: 400px
+}
+
+#time {
+    padding-top: 50px;
 }

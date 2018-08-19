@@ -13,22 +13,27 @@
 
     <div class="header">
             <div class="title">Multiplication Drill</div>
-            <a href="#" class="contact">Contact</a>
-            <a href="#" class="about">About</a>
+            <a href="division.html" class="contact">Addition Drill</a>
     </div>
 
-    <footer>
+    <footer class="scorekeeper">
         <div class="Test"></div>
         <div class="correctText">Correct Answer Score: <span id="correctSpan">0</span></div>
         <div class="wrongText">Wrong Answer Score: <span id="wrongSpan">0</span></div>
+        <img src="http://wikiclipart.com/wp-content/uploads/2016/10/Math-clip-art-7.png" id="picture-one"/>
     </footer>
+    
+   <div class="questionContainer">
+   <span class="numberOne"></span>   ×  <span class="numberTwo"></span>  =  <input type="text" id="input"/>
+   </div>
 
-   <span class="numberOne"></span> × <span class="numberTwo"></span> = <input type="text" id="input"/>
-
-   <div>You have <span id="time">01:00</span> seconds left!</div>
+   <div class="timer-container">
+   <div class="timerText">You have <span id="time"></span> seconds left!</div>
+   <img src="https://img.clipartxtras.com/89d5f377be11fb93b2b455c03cbbfeb0_clock-clip-art-clipart-panda-free-clipart-images-clock-clipart-free_500-584.jpeg" id="clock">
+   </div>
 </div>
 </body>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="script.js"></script>
+<script src="mult.js"></script>
 </html>
